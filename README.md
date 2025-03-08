@@ -1,0 +1,2 @@
+## My first Java exercises
+This repository contains my first Java exercises. Some of the exercises are from the udemy course [Java Masterclass 2025](https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/34999832?start=15#overview) by Tim Buchalka. 
