@@ -5,17 +5,17 @@ It has two fields: val and next.
 - The `val` field is an integer which represents the value stored in the node,
 - The `next` field is a pointer to the next node in the list. This is the recursion part.
 
-### Adding new node
+### Add new node
 
 ```
 ListNode newNode = new ListNode(val); // Create a new node
 tail.next = newNode; // Add the new node by pointing the existing node (tail) to the new node
 ```
-### Setting the end of the list to the new node
+### Set the current node to the next node
 ```aiignore
-tail = tail.next;
+current = current.next;
+ListNode result = dummyHead.next; // Move the result to the next node of the dummyHead
 ```
-
 # Solution to add two numbers from two linked lists in reverse order
 
 ```
@@ -23,6 +23,5 @@ Input: l1 = [2,4,3], l2 = [5,6,4]
 Output: [7,0,8]
 Explanation: 342 + 465 = 807.
 ```
-
 We don't reverse the linked lists l1 and l2, i.e we work through the linked lists they way they are. We use the integer
 `carry`that carries the first number if the sum is greater than 9 and add it to the next node in the loop. 

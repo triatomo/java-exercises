@@ -22,7 +22,7 @@ public class AddTwoNumbers {
             l1 = (l1 != null) ? l1.next : null; // Move to the next node in l1
             l2 = (l2 != null) ? l2.next : null; // Move to the next node in l2
         }
-        ListNode result = dummyHead.next;
+        ListNode result = dummyHead.next; // Move the result to the next node of the dummyHead
         dummyHead.next = null;
         return result;
     }
