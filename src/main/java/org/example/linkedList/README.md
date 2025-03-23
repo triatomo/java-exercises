@@ -1,21 +1,3 @@
-# ListNode
-
-ListNode class is a recursive class that represents a single node in a linked list.
-It has two fields: val and next.
-- The `val` field is an integer which represents the value stored in the node,
-- The `next` field is a pointer to the next node in the list. This is the recursion part.
-
-### Add new node
-
-```
-ListNode newNode = new ListNode(val); // Create a new node
-tail.next = newNode; // Add the new node by pointing the existing node (tail) to the new node
-```
-### Set the current node to the next node
-```aiignore
-current = current.next;
-ListNode result = dummyHead.next; // Move the result to the next node of the dummyHead
-```
 # Solution to add two numbers from two linked lists in reverse order
 
 ```
