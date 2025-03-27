@@ -9,7 +9,7 @@ by Tim Buchalka.
 ### Sliding window
 
 You have a list and you have to find certain range within that list that fulfills certain criteria.
-Example: substring from a string that doesn't contain repeating characters.
+Finding <u>**substring**</u> is a good example of this implementation ([my solution for Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/solutions/6571384/java-solution-with-sliding-window-and-set)).
 
 #### Components
 
